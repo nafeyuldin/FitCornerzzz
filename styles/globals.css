@@ -1,0 +1,65 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;0,700;0,800;1,600;1,700&display=swap');
+*{
+  font-family: 'Montserrat', sans-serif !important;
+}
+.swiper-button-prev{
+    color:#FBAC18!important;
+    margin-left: 4vw;
+}
+.swiper-button-next{
+    color:#FBAC18 !important;
+    margin-right: 4vw;
+}
+  .CSwiper{
+    height: 245px !important;
+
+  }
+  .resheader{
+    position: relative;
+    z-index: 1000 !important;
+background-color:white !important;
+
+  }
+.resH{
+  z-index: 1000 !important;
+  background-color: white !important;
+}
+@media screen and (min-width:900px){
+  .profiledetail{
+    display: none !important;
+  }
+}
+
+.css-eg0mwd-MuiSlider-thumb:before{
+
+    width: 0 !important;
+    height: 0 !important;
+    border-left: 30px solid transparent !important;
+    border-right: 30px solid transparent !important;
+    border-bottom: 50px solid black !important;
+  }
+
+  .css-187mznn-MuiSlider-root{
+    background-color: transparent !important ;
+    color: transparent !important;
+  }
+  .swiper-pagination {
+    display: none !important;
+  }
+  @media screen and (max-width: 600px){
+    .css-eg0mwd-MuiSlider-thumb:before{
+
+      width: 0 !important;
+      height: 0 !important;
+      border-left: 15px solid transparent !important;
+      border-right: 15px solid transparent !important;
+      border-bottom: 25px solid black !important;
+    }
+    .swiper-pagination {
+      display: inline !important;
+    }
+  
+  }
